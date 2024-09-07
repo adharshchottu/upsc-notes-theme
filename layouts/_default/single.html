@@ -11,8 +11,7 @@
           <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}" rel="category tag">{{ . | humanize }}</a>
           {{ end }}
         </div>
-        <!-- .entry-categories-inner -->
-      </div><!-- .entry-categories -->
+      </div>
       <h2 class="entry-title heading-size-1">{{ .Title }}</h2>
       <div class="post-meta-wrapper post-meta-single post-meta-single-top">
         <ul class="post-meta">
@@ -57,8 +56,8 @@
   <div class="post-inner thin ">
     <div class="entry-content">
       {{ .Content }}
-    </div><!-- .entry-content -->
-  </div><!-- .post-inner -->
+    </div>
+  </div>
 
   <div class="section-inner {{if not .Params.Tags}}d-none{{end}}">
     <div class="post-meta-wrapper post-meta-single post-meta-single-bottom">

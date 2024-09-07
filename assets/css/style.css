@@ -3537,7 +3537,7 @@ figure.wp-block-table.is-style-stripes {
 /* Font Families ----------------------------- */
 
 .entry-content {
-	font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+	/* font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif; */
 	letter-spacing: normal;
 }
 
